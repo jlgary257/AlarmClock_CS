@@ -116,6 +116,7 @@
             AlarmLabel.Size = new Size(111, 46);
             AlarmLabel.TabIndex = 3;
             AlarmLabel.Text = "Status";
+            AlarmLabel.TextAlign = ContentAlignment.TopCenter;
             AlarmLabel.Click += AlarmLabel_Click_1;
             // 
             // dateTimePicker1
