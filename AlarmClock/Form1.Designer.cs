@@ -36,15 +36,17 @@
             // timeLabel
             // 
             timeLabel.AutoSize = true;
-            timeLabel.Location = new Point(354, 197);
+            timeLabel.Font = new Font("Segoe UI Emoji", 20F);
+            timeLabel.Location = new Point(334, 77);
             timeLabel.Name = "timeLabel";
-            timeLabel.Size = new Size(100, 40);
+            timeLabel.Size = new Size(109, 46);
             timeLabel.TabIndex = 0;
             timeLabel.Text = "label1";
             timeLabel.Click += timeLabel_Click;
             // 
             // timer1
             // 
+            timer1.Enabled = true;
             timer1.Tick += timer1_Tick;
             // 
             // Form1
